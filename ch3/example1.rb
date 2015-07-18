@@ -1,8 +1,18 @@
-def add_three(number)
-  number+3
+def add(a,b)
+  a+b
 end
 
-add_three(5).times {puts "wow"}
+def subtract (a,b)
+  a-b
+end
+
+def multiply (a,b)
+  a*b
+end
+
+puts multiply(add(5,6),subtract(10,2))
+
+
 
 
 
